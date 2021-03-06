@@ -29,7 +29,7 @@ function Bio() {
             />
             <p>
               Written by <strong>{author}</strong> who lives and works in
-              Minneapolis building silly things.
+              Louisville, Kentucky. Enjoys cycling, MMOs, and MMA.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
