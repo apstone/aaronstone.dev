@@ -16,8 +16,7 @@ export const Code = ({ codeString, language, ...props }) => {
   } else {
     return (
       <div style={{
-        marginLeft: -80,
-        marginRight: -80,
+        overflow: 'scroll'
       }}>
         <Highlight {...defaultProps} theme={dracula} code={codeString} language={language}>
           {({ className, style, tokens, getLineProps, getTokenProps }) => (

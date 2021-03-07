@@ -12,7 +12,7 @@ Feedback feels good. This information helps the user determine if something has 
 
 # Implementing this in React Native
 
-React makes this easy. We can use state variables to track our current application state and use that to help inform the user of what is going on. Take the example button component below - the component takes a `loading` prop that can be used to toggling the buttons text to instead show a progress indicatior. This helps us show the user that their action was successful, and that something is happening behind the scenes.
+React makes this easy. We can use state variables to track our current application state and use that to help inform the user of what is going on. Take the example button component below - the component takes a `loading` prop that can be used to toggling the buttons text to instead show a progress indicatior. This helps us show the user that their action was successful and that something is happening behind the scenes.
 
 ```ts
 export const Button = ({text, action, loading = false}: ButtonProps) => (
